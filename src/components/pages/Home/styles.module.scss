@@ -1,13 +1,16 @@
-.HomePage{
+@import "/src/styles/variables";
+
+.HomePage {
     display: flex;
-    
-    &__img{
+
+    &__img {
         margin-top: 7rem;
         width: 100%;
         height: 20%;
         object-fit: fill;
     }
-    &__headerText{
+
+    &__headerText {
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 1.7rem;
@@ -15,6 +18,84 @@
         width: 33.5rem;
         text-align: left;
         margin: auto;
-    
+
     }
-}
+
+    &__cardIcons {
+        background-color: $blueBackground;
+        padding: 1.2rem;
+
+        &--text {
+            font-family: 'Sansita';
+            font-weight: 700;
+            font-size: 1.9rem;
+            line-height: 2rem;
+            color: $blue;
+
+        }
+    }
+    &__cardText{
+        background-color: $blue;
+        padding: 1.2rem;
+        &--text{
+            font-family: 'Sansita';
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    color: $blueBackground;
+        }
+    }
+
+    &__solicitation{
+        padding: 2rem;
+        &--text{
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+    }
+    &__description{
+        &--title{
+            font-family: 'Sansita';
+            font-weight: 700;
+            font-size: 1.9rem;
+            line-height: 2rem;
+            color: $blue;
+            text-align: left;
+            padding: 2rem;
+
+        }
+        &--text{
+            width: 33.5rem;
+            height: 46.2rem;
+            font-family: 'Poppins';
+            font-weight: 400;
+            line-height: 2.2rem;
+            font-size: 1.7rem;
+            text-align: left;
+            padding: 2rem;
+
+        }
+    }
+    &__profile{
+        
+    }
+    &__avatar{
+        display: inline-block;
+        border-radius: 50rem;
+        perspective: 50rem;
+        animation: flipV 5s infinite;
+        @keyframes flipV{
+            0% {
+                transform: perspective(800px) scaleX(1);
+            }
+        
+            80% {
+                transform: perspective(800px) scaleX(-1);
+            }
+        
+    }
+}}
