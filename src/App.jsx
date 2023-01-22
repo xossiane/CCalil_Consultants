@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import HomePage from './components/pages/Home'
 
-import Header from './components/organisms/NavBar'
-import Button from './components/atoms/Button'
 
 
 function App() {
@@ -10,10 +9,7 @@ function App() {
   return (
     <div className="App">
       
-       <Header />       
-       <p>hey</p>
-       <Button>Contratar Serviço</Button>
-       <Button mt="mt">Enviar CV</Button>
+       <HomePage></HomePage>
        
 
     </div>

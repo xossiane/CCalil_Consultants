@@ -1,0 +1,49 @@
+@import "/src/styles/variables";
+.CardText{
+       
+
+    &__container{
+        width: 29rem;
+        height: 33.5rem;
+        padding: 1.6rem;
+        border-radius: 0.4rem;
+        background-color: $background;
+        position: relative;
+        display: flex;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+   
+    &__info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-content: stretch;
+      
+        
+    }
+    &__title{
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 1.7rem;
+        line-height: 2rem;
+        text-align: left;
+        color: $blue;
+    }
+        
+        
+   
+    &__text{
+        text-align: left;
+        font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    position: relative;
+    margin-bottom: 1.2rem;
+    display: flex;
+    
+    }
+       
+}   

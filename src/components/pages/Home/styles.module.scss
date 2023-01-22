@@ -1,0 +1,20 @@
+.HomePage{
+    display: flex;
+    
+    &__img{
+        margin-top: 7rem;
+        width: 100%;
+        height: 20%;
+        object-fit: fill;
+    }
+    &__headerText{
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+        width: 33.5rem;
+        text-align: left;
+        margin: auto;
+    
+    }
+}
