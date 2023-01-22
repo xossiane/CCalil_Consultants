@@ -1,0 +1,25 @@
+@import "/src/styles/variables";
+
+
+.btn{
+    &__container{
+        background-color: $gold;
+        width: 25rem;
+        height: 5.6rem;
+        border-radius: 1.5rem;
+        &--mt{
+            background-color: $background;
+            border: 0.4rem solid $blue;
+        }
+
+    }
+    &__text{
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+        position: relative;
+        margin: auto;
+        
+    }
+}
