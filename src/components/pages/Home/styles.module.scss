@@ -81,7 +81,16 @@
         }
     }
     &__profile{
-        
+        &--text{
+            width: 33.5rem;
+            height: 46.2rem;
+            font-family: 'Poppins';
+            font-weight: 400;
+            line-height: 2.2rem;
+            font-size: 1.7rem;
+            text-align: left;
+            padding: 2rem; 
+        }
     }
     &__avatar{
         display: inline-block;
@@ -98,4 +107,14 @@
             }
         
     }
-}}
+}
+
+&__values{
+    margin-top: 4.7rem;
+    background-color: $blueBackground;
+    padding-top: 4.19rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+}

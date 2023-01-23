@@ -1,10 +1,10 @@
 @import "/src/styles/variables";
 .CardText{
-       
-
+    width: 33.5rem;
+    min-height: 21.7rem;
+    align-items: center;
+    margin: auto;
     &__container{
-        width: 29rem;
-        height: 33.5rem;
         padding: 1.6rem;
         border-radius: 0.4rem;
         background-color: $background;
@@ -13,6 +13,8 @@
         margin: auto;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        border: 1px solid #C0C3CF;
+       
     }
    
     &__info{
