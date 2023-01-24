@@ -6,6 +6,7 @@ import styles from "./styles.module.scss";
 import CardIcons from "../../molecules/CardIcons";
 import CardText from "../../molecules/CardText";
 import cida from "../../../assets/images/cida.png";
+import CardDepo from "../../molecules/CardDepo";
 
 function HomePage() {
   const cardInfo = [
@@ -138,6 +139,8 @@ function HomePage() {
       <div className={styles[`HomePage__values`]}>
       <CardText mt="mt" list={cardInfo2} />
       </div>
+      <CardDepo></CardDepo>
+      
     </>
   );
 }
