@@ -8,6 +8,7 @@ import CardText from "../../molecules/CardText";
 import cida from "../../../assets/images/cida.png";
 import responsability from "../../../assets/images/responsability.png";
 import CardDepo from "../../molecules/CardDepo";
+import Footer from "../../organisms/Footer";
 
 function HomePage() {
   const cardInfo = [
@@ -149,7 +150,7 @@ function HomePage() {
         <p className={styles[`HomePage__responsability--text`]}>A CCalil Consultores apoia a Associação Amigos Beija-Flor desde a sua fundação, em 1999 e, transformação em Associação, em 2005. Participa de diversos projetos, como o Projeto Biblioteca Beija-Flor acima.
 Caso queira saber mais sobre a Associação, clique <a>aqui.</a></p>
       </div>
-      
+      <Footer></Footer>
     </>
   );
 }
