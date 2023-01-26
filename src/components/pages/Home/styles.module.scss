@@ -104,18 +104,20 @@
         display: inline-block;
         border-radius: 50rem;
         perspective: 50rem;
-        animation: flipV 5s infinite;
-        @keyframes flipV{
-            0% {
-                transform: perspective(800px) scaleX(1);
+        animation: appear 3s infinite;
+        @keyframes appear{
+            from {
+                opacity: 0;
+              }
+            
+              to {
+                opacity: 1;
+              }
             }
-        
-            80% {
-                transform: perspective(800px) scaleX(-1);
-            }
+            
         
     }
-}
+
 
 &__values{
     margin-top: 4.7rem;
