@@ -19,7 +19,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 35rem;
+    height: fit-content;
    
 }
 
@@ -41,7 +41,7 @@
     color: white;
     line-height: 2rem;
     width: 31.1rem;
-    height: 14.8rem;
+    height: fit-content;
     margin: auto;
     margin-bottom: 3rem;
     margin-top: 3rem;
