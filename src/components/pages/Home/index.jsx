@@ -139,7 +139,7 @@ function HomePage() {
         </p>
       </div>
       <div className={styles[`HomePage__values`]}>
-      <CardText mt="mt" list={cardInfo2} />
+      <CardText mt="mt" className={styles[`HomePage__values--card`]} list={cardInfo2} />
       </div>
       <CardDepo></CardDepo>
       <div className={styles[`HomePage__responsability`]}>

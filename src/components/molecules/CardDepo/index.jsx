@@ -13,11 +13,15 @@ function CardDepo() {
       <p className={styles[`CardDepo__chicks`]}>”</p>
       
       <Carousel
+      
+      
+      transitionTime={5}
         autoPlay={true}
         showArrows={true}
         showThumbs={false}
         dynamicHeight={true}
         infiniteLoop={true}
+       
         /* onChange={onChange} */
        /*  
         onClickItem={onClickItem}
