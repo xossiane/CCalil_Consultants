@@ -16,7 +16,7 @@ export default function Footer() {
       <div className={styles[`footer__contact--info`]}>
       <p><strong>Whatsapp:</strong> +55 (11)99185-0112</p>
       <p><strong>Email:</strong>{" "}cida.calil@ccalilconsultores.com</p>
-      <p><strong>São Paulo/SP</strong>, Brasil</p>
+      
       </div>
       <div className={styles[`footer__icons`]}>
       <div className={styles[`footer__icons--desktop`]}>
