@@ -142,11 +142,11 @@ function HomePage() {
       <CardText mt="mt" list={cardInfo2} />
       </div>
       <CardDepo></CardDepo>
-      <div className={styles[`HomePage__responsibility`]}>
+      <div className={styles[`HomePage__responsability`]}>
        
-        <h2 className={styles[`HomePage__title`]}>Responsabilidade Social</h2>
+        <h2 className={styles[`HomePage__responsability--title`]}>Responsabilidade Social</h2>
         <img src={responsability} className={styles[`HomePage__img--mt`]} alt="responsibility"/>
-        <h2>Projeto Biblioteca Infanto-Juvenil - Associação Amigos Beija-Flor</h2>
+        <h2 className={styles[`HomePage__responsability--subtitle`]} >Projeto Biblioteca Infanto-Juvenil - Associação Amigos Beija-Flor</h2>
         <p className={styles[`HomePage__responsability--text`]}>A CCalil Consultores apoia a Associação Amigos Beija-Flor desde a sua fundação, em 1999 e, transformação em Associação, em 2005. Participa de diversos projetos, como o Projeto Biblioteca Beija-Flor acima.
 Caso queira saber mais sobre a Associação, clique <a>aqui.</a></p>
       </div>

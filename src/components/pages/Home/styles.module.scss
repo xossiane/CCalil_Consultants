@@ -12,6 +12,13 @@
             margin-top: 0;
             width: 100%;
             height: 20%;
+            @media (min-width: 700px) {
+                width: 30%;
+                height: 5%;
+                display: flex;
+                margin-left: 5%;
+                  
+                }
         }
     }
 
@@ -140,6 +147,34 @@
 }
 
 &__responsability{
+    @media (min-width: 700px) {
+        
+    }
+   &--title{
+    font-family: 'Sansita';
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color: $blue;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 5rem;
+    }
+    &--subtitle{
+        @media (min-width: 700px) {
+            font-size: 2rem;
+text-align: left;
+margin-left: 5%;
+width: 30%;
+margin-bottom: 5rem;
+             
+            }
+    
+   }
+
+   
+
+        
     &--text{
         width: 90%;
             height: fit-content;
@@ -149,6 +184,12 @@
             font-size: 1.7rem;
             text-align: left;
             padding: 2rem;
+            @media (min-width: 700px) {
+                width: 50%;
+                position: absolute;
+            margin-left: 40%;
+        margin-top: -30rem;
+    margin-bottom: 1rem;}
     }
 }
 }
