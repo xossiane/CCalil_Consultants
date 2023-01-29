@@ -72,14 +72,20 @@ function HomePage() {
         <CardText list={cardInfo} />
       </div>
       <div className={styles[`HomePage__solicitation`]}>
+      <div className={styles[`HomePage__solicitation1`]}>
+      <h2 className={styles[`HomePage__solicitation2--subtitle`]}>Para empresas</h2>
         <h2 className={styles[`HomePage__solicitation--text`]}>
           Precisa de algum serviço?
         </h2>
         <Button>Contratar Serviço</Button>
+        </div>
+        <div className={styles[`HomePage__solicitation2`]}>
+          <h2 className={styles[`HomePage__solicitation2--subtitle`]}>Para candidatos</h2>
         <h2 className={styles[`HomePage__solicitation--text`]}>
           Buscando colocação?
         </h2>
         <Button mt="mt">Enviar CV</Button>
+        </div>
       </div>
       <div className={styles[`HomePage__description`]}>
         <h2 className={styles[`HomePage__description--title`]}>
