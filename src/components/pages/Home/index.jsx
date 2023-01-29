@@ -111,7 +111,7 @@ function HomePage() {
           alt="Cida Calil"
           className={styles[`HomePage__avatar`]}
         ></img>
-        <h2>Cida Calil - Diretora da CCalil Consultores</h2>
+        <h2 className={styles[`HomePage__avatar--name`]}>Cida Calil - Diretora da CCalil Consultores</h2>
         <p className={styles[`HomePage__profile--text`]}>
           Experiência de <strong>mais de 35 anos</strong> em Recursos Humanos.{" "}
           <br></br>
