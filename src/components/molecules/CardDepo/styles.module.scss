@@ -1,10 +1,10 @@
 @import "/src/styles/variables";
 .CardDepo{
-    width: 100vw;
+    
     background-color: $blue;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    
+    height: 40rem;
     &__title{
         text-align: left;
         margin-left: 2rem;

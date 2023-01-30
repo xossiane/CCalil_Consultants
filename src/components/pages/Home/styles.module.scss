@@ -4,17 +4,18 @@
     display: flex;
 
     &__img {
+        
         margin-top: 7rem;
         width: 100%;
         height: 20%;
-        object-fit: fill;
+        object-fit: fit;
         &--mt{
             margin-top: 0;
             width: 100%;
             height: 20%;
             @media (min-width: 700px) {
-                width: 30%;
-                height: 5%;
+                width: 40%;
+                height: 20%;
                 display: flex;
                 margin-left: 5%;
                   
@@ -72,6 +73,10 @@
 
     &__solicitation{
         padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
         @media (min-width: 700px) {
             display: flex;
             flex-direction: row;
@@ -94,13 +99,16 @@
     }
     &__description{
         &--title{
-            font-family: 'Sansita';
-            font-weight: 700;
-            font-size: 1.9rem;
-            line-height: 2rem;
-            color: $blue;
-            text-align: left;
-            padding: 2rem;
+            font-family: "Sansita";
+    font-weight: 700;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    color: #012D78;
+    text-align: center;
+  
+    display: flex;
+    
+    justify-content: center;
             @media (min-width: 700px) {
         text-align: center;
         font-size: 3.5rem;
@@ -108,13 +116,17 @@
         }
         &--text{
             width: 33.5rem;
-            height: 46.2rem;
-            font-family: 'Poppins';
-            font-weight: 400;
-            line-height: 2.2rem;
-            font-size: 1.7rem;
-            text-align: left;
-            padding: 2rem;
+    height: 46.2rem;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 2.2rem;
+    font-size: 1.7rem;
+    text-align: left;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 10rem;
             @media (min-width: 700px) {
                 position: relative;
         width: 50%;
@@ -125,7 +137,22 @@
         }
     }
     &__profile{
+        display: flex;
+         flex-direction: column;
         align-items: center;
+        &Section{
+            display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    @media (min-width: 700px) {
+        margin-top: 21rem;
+    position: relative;
+    display: flex;
+    width: 50%;
+    }
+   
+        }
         @media (min-width: 700px) {
         display: flex;
         align-items: center;
@@ -149,7 +176,8 @@
         }
     }
     &__avatar{
-        display: inline-block;
+        display: flex;
+        align-items: center;
         border-radius: 50rem;
         perspective: 50rem;
         /* animation: appear 3s infinite; */
@@ -158,34 +186,31 @@
         margin-left: 2rem;
         display: flex;
         @media (min-width: 700px) {
-            position: absolute;
-            margin-top: 58%;
-            margin-left: 12%;
-            width: 29%;
+            position: relative;
+            display: flex;
+          align-content: center;
+            
         }
         @media (min-width: 1024px) {
             position: relative;
-            margin-top: 42%;
-            margin-left: -28%;
-            width: 29%;
+           
         }
         
     
        }
         @media (min-width: 700px) {
         display: flex;
-        width: 60%;
-        height: 60%;
+        
         margin-left: 7%;
         text-align: center;
        
         }
         @media (min-width: 1024px) {
             display: flex;
-            max-width: 35%;
-            max-height: 35%;
-            margin-left: 7%;
+            
+            margin-left: 5%;
             text-align: center;
+            margin-top: -20rem;
            
             }
         @keyframes appear{
@@ -223,8 +248,10 @@
 }
 
 &__responsability{
+   
     @media (min-width: 700px) {
-        
+        width: 100%;
+        margin-bottom: 20rem;
     }
    &--title{
     font-family: 'Sansita';
@@ -262,8 +289,8 @@ margin-bottom: 5rem;
             padding: 2rem;
             @media (min-width: 700px) {
                 width: 50%;
-                position: absolute;
-            margin-left: 40%;
+                position: relative;
+            margin-left: 47%;
         margin-top: -30rem;
     margin-bottom: 1rem;}
     }

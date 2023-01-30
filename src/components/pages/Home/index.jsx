@@ -112,12 +112,14 @@ function HomePage() {
         </p>
       </div>
       <div className={styles[`HomePage__profile`]}>
+        <div className={styles[`HomePage__profileSection`]}>
         <img
           src={cida}
           alt="Cida Calil"
           className={styles[`HomePage__avatar`]}
         ></img>
         <h2 className={styles[`HomePage__avatar--name`]}>Cida Calil - Diretora da CCalil Consultores</h2>
+        </div>
         <p className={styles[`HomePage__profile--text`]}>
           Experiência de <strong>mais de 35 anos</strong> em Recursos Humanos.{" "}
           <br></br>
