@@ -54,6 +54,13 @@ I strongly recommend Cida for any function as one company employee or as a servi
           <p className={styles[`CardDepo__author`]}>Philip Dwyer</p>
           </div>
 
+          <div className={styles[`CardDepo__content`]}>
+        
+          
+        <h1 className={styles[`CardDepo__text`]}>Cida was an excellent internal Business Partner, connecting HR with the Engineering a IT divisions, for 6 years ,from start-up to the sale of the company.Very good human relations and communications skills. She also led the start-up Recruiting team, and was critical in hiring and placing 2000 employees in Brazil in 8 months.Later, she also managed the Pension Plan.
+In a prior Company, Dow Chemical Brazil, she was also an outstanding HR professional under my Directorship.</h1>
+        <p className={styles[`CardDepo__author`]}>Philip Dwyer</p>
+        </div>
 
 
 

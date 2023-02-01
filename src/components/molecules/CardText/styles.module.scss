@@ -1,12 +1,12 @@
 @import "/src/styles/variables";
 .CardText{
-    width: 33.5rem;
+    
     min-height: 21.7rem;
     align-items: center;
 margin: auto;
 @media (min-width: 700px) {
    display: flex;
-   min-width: fit-content;
+   
 }
     &__container{
         padding: 1.6rem;
@@ -20,11 +20,14 @@ margin: auto;
         border: 1px solid #C0C3CF;
         @media (min-width: 700px) {
             margin: 3rem;
+            height: 30.4rem;
+            width: 59rem;
          }
     }
    
     &__info{
         display: flex;
+        margin: auto;
         flex-direction: column;
         text-align: center;
         align-content: stretch;

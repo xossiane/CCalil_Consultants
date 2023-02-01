@@ -92,19 +92,19 @@ function HomePage() {
           A CCalil Consultores
         </h2>
         <p className={styles[`HomePage__description--text`]}>
-          <strong>Fundada em 2008,</strong> a CCalil Consultores possui{" "}
-          <strong>experiência</strong> e <strong>maturidade</strong> na condução
+          <strong className={styles.bolded}>Fundada em 2008,</strong> a CCalil Consultores possui
+          <strong className={styles.bolded}>experiência</strong> e <strong className={styles.bolded}>maturidade</strong> na condução
           dos serviços que oferece.<br></br>
           <br></br>
-          Nossa equipe é formada por profissionais que trabalham de{" "}
-          <strong>maneira personalizada</strong>, procurando primeiramente
+          Nossa equipe é formada por profissionais que trabalham de
+          <strong className={styles.bolded}>maneira personalizada,</strong> procurando primeiramente
           entender a cultura e particularidades de cada organização para
-          oferecer <strong>soluções adequadas</strong> as suas necessidades.
+          oferecer <strong className={styles.bolded}>soluções adequadas</strong> as suas necessidades.
           <br></br>
           <br></br>
           Atendemos conceituadas empresas nacionais e multinacionais, dos mais
           variados setores, tais como:{" "}
-          <strong>
+          <strong className={styles.bolded}>
             Indústrias Químicas, Farmacêuticas, Telecomunicações, T.I.,
             Importadora de Mármores, Empresa de Engenharia, Escritório de
             Arquitetura, Indústria de Autopeças etc.
