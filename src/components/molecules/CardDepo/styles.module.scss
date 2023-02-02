@@ -11,6 +11,11 @@
         color: $blueBackground;
         font-family: 'Sansita';
         font-size: 1.9rem;
+        @media (min-width: 1024px) {
+            position: absolute;
+            font-size: 2.9rem;
+            margin-left: 4rem;
+           }
         
 
     }
@@ -47,7 +52,13 @@
     margin-top: 3rem;
     text-align: left;
     position: relative;
-
+    @media (min-width: 1024px) {
+        margin-top: 10rem;
+        width: 70%;
+        font-size: 2rem;
+        line-height: 3rem;
+       }
+    
 
 }
 
