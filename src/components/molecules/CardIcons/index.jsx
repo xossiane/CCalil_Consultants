@@ -5,19 +5,19 @@ import styles from './styles.module.scss'
 function CardIcons() {
     const cardInfo = [{
         "id":0,
-        "icon": "https://main--startling-shortbread-f20d75.netlify.app/assets/images/time.png",
+        "icon": "https://img.icons8.com/material-outlined/48/000000/clock--v1.png",
         "number": "13",
         "text": "anos de atuação"
     },
     {
         "id":1,
-        "icon": "https://main--startling-shortbread-f20d75.netlify.app/assets/images/house.png",
+        "icon": "https://cdn-icons-png.flaticon.com/512/1390/1390479.png",
         "number": "39",
         "text": "empresas atendidas"
     },
     {
         "id":2,
-        "icon": "https://main--startling-shortbread-f20d75.netlify.app/assets/images/people.png",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2118/2118701.png",
         "number": "+300",
         "text": "contratações"
     }]
