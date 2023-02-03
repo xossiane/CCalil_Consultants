@@ -1,22 +1,23 @@
 import React from 'react'
 import styles from './styles.module.scss'
 
+
 function CardIcons() {
     const cardInfo = [{
         "id":0,
-        "icon": "/assets/time.png",
+        "icon": "https://main--startling-shortbread-f20d75.netlify.app/assets/images/time.png",
         "number": "13",
         "text": "anos de atuação"
     },
     {
         "id":1,
-        "icon": "/assets/house.png",
+        "icon": "https://main--startling-shortbread-f20d75.netlify.app/assets/images/house.png",
         "number": "39",
         "text": "empresas atendidas"
     },
     {
         "id":2,
-        "icon": "/assets/people.png",
+        "icon": "https://main--startling-shortbread-f20d75.netlify.app/assets/images/people.png",
         "number": "+300",
         "text": "contratações"
     }]
