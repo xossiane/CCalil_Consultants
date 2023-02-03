@@ -77,14 +77,18 @@ function HomePage() {
         <h2 className={styles[`HomePage__solicitation--text`]}>
           Precisa de algum serviço?
         </h2>
+        
         <Button>Contratar Serviço</Button>
+      
         </div>
         <div className={styles[`HomePage__solicitation2`]}>
           <h2 className={styles[`HomePage__solicitation2--subtitle`]}>Para candidatos</h2>
         <h2 className={styles[`HomePage__solicitation--text`]}>
           Buscando colocação?
         </h2>
+        <a href="mailto:cv@ccalilconsultores.com.br">
         <Button mt="mt">Enviar CV</Button>
+        </a>
         </div>
       </div>
       <div className={styles[`HomePage__description`]}>

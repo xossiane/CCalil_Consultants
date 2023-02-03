@@ -15,28 +15,36 @@ export default function Footer() {
       </div>
       <div className={styles[`footer__contact--info`]}>
       <p><strong>Whatsapp:</strong> +55 (11)99185-0112</p>
-      <p><strong>Email:</strong>{" "}cida.calil@ccalilconsultores.com</p>
+      
+      <p><strong>Email:</strong><a href="mailto:cv@ccalilconsultores.com.br">{" "}cida.calil@ccalilconsultores.com</a></p>
       
       </div>
       <div className={styles[`footer__icons`]}>
       <div className={styles[`footer__icons--desktop`]}>
       <h2 className={styles[`footer__icons--title`]}>Redes Sociais</h2>
       <div className={styles[`footer__icons--desktopUnit`]}>
+      <a href="https://www.linkedin.com/in/cidacalil/">
       <img
       src={linkedin}
       alt="Linkedin"
       className={styles[`footer__icon`]}
-    ></img>
+    /></a>
+    
+    <a href="https://www.facebook.com/CCalilConsultores">
     <img
       src={facebook}
       alt="facebook"
       className={styles[`footer__icon`]}
-    ></img>
+    />
+    </a>
+   
+    <a href="https://www.facebook.com/CCalilConsultores">
     <img
       src={instagram}
       alt="instagram"
       className={styles[`footer__icon`]}
-    ></img>
+    />
+    </a>
     </div>
     </div>
     </div>

@@ -2,12 +2,14 @@
 
 
 .btn{
+   
     &__container{
         background-color: $gold;
         width: 25rem;
         height: 5.6rem;
         border-radius: 1.5rem;
         border: none;
+        cursor: pointer;
         &--mt{
             background-color: $background;
             border: 0.4rem solid $blue;
