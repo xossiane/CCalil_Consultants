@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./styles.module.scss";
 import linkedin from "../../../assets/images/linkedin.png" 
 import facebook from "../../../assets/images/facebook.png" 
-import instagram from "../../../assets/images/instagram.png" 
+import insta from "../../../assets/images/insta.png" 
 export default function Footer() {
   return (
     <footer className={styles[`footer`]}>
@@ -40,7 +40,7 @@ export default function Footer() {
    
     <a href="https://www.facebook.com/CCalilConsultores">
     <img
-      src={instagram}
+      src={insta}
       alt="instagram"
       className={styles[`footer__icon`]}
     />
