@@ -4,19 +4,19 @@ import styles from './styles.module.scss'
 function CardIcons() {
     const cardInfo = [{
         "id":0,
-        "icon": "src/assets/images/time.png",
+        "icon": "assets/images/time.png",
         "number": "13",
         "text": "anos de atuação"
     },
     {
         "id":1,
-        "icon": "src/assets/images/house.png",
+        "icon": "assets/images/house.png",
         "number": "39",
         "text": "empresas atendidas"
     },
     {
         "id":2,
-        "icon": "src/assets/images/people.png",
+        "icon": "assets/images/people.png",
         "number": "+300",
         "text": "contratações"
     }]
