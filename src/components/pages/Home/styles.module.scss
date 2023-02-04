@@ -57,12 +57,12 @@
         }
     }
     &__cardText{
+        scroll-margin-top: 20rem;
         background-color: #012D78;
         padding: 1.2rem;
-        margin: auto;
         display: flex;
         flex-direction: column;
-        overflow-y: auto;
+        
 
         &--text{
             font-family: 'Sansita';
@@ -74,6 +74,7 @@
     }
 
     &__solicitation{
+        scroll-margin-top: 20rem;
         padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -102,6 +103,7 @@
         padding-bottom: 2rem;
     }
     &__description{
+        scroll-margin-top: 20rem;
         &--title{
             font-family: "Sansita";
     font-weight: 700;
@@ -109,9 +111,7 @@
     line-height: 2rem;
     color: #012D78;
     text-align: center;
-  
     display: flex;
-    
     justify-content: center;
             @media (min-width: 700px) {
         text-align: center;
@@ -312,4 +312,6 @@ margin-bottom: 5rem;
     
    
 }
+
+
 

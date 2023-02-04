@@ -50,7 +50,7 @@ function HomePage() {
   return (
     <>
       <Header />
-      <header>
+      <header id="home">
         <img
           src={Banner}
           className={styles[`HomePage__img`]}
@@ -67,11 +67,11 @@ function HomePage() {
         </h2>
         <CardIcons />
       </div>
-      <div className={styles[`HomePage__cardText`]}>
-        <h2 className={styles[`HomePage__cardText--text`]}>Nossos serviços</h2>
+      <div  id="servicos" className={styles[`HomePage__cardText`]}>
+        <h2  className={styles[`HomePage__cardText--text`]}>Nossos serviços</h2>
         <CardText list={cardInfo} />
       </div>
-      <div className={styles[`HomePage__solicitation`]}>
+      <div id="contato" className={styles[`HomePage__solicitation`]}>
       <div className={styles[`HomePage__solicitation1`]}>
       <h2 className={styles[`HomePage__solicitation2--subtitle`]}>Para empresas</h2>
         <h2 className={styles[`HomePage__solicitation--text`]}>
@@ -91,7 +91,7 @@ function HomePage() {
         </a>
         </div>
       </div>
-      <div className={styles[`HomePage__description`]}>
+      <div id="team" className={styles[`HomePage__description`]}>
         <h2 className={styles[`HomePage__description--title`]}>
           A CCalil Consultores
         </h2>

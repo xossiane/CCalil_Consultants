@@ -14,7 +14,7 @@ export default function Header() {
     <header className={styles[`header`]}>
       <div className={styles[`header__internal`]}>
         
-          <a>
+          <a href="#home">
             <img
               className={styles[`header__logo`]}
               src={CCLogo}

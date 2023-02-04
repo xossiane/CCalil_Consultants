@@ -14,22 +14,22 @@ export default function NavBar() {
             
             <li className={styles[`nav__item`]}>
              
-                <a className={styles[`nav__link`]}>Home</a>
+                <a href="#home" className={styles[`nav__link`]}>Home</a>
               
             </li>
             <li className={styles[`nav__item`]}>
               
-                <a className={styles[`nav__link`]}>Serviços</a>
+                <a href="#servicos" className={styles[`nav__link`]}>Serviços</a>
               
             </li>
             <li className={styles[`nav__item`]}>
               
-                <a className={styles[`nav__link`]}>Team</a>
+                <a href="#team" className={styles[`nav__link`]}>Team</a>
               
             </li>
-            <li className={styles[`nav__item`]}>
+            <li  className={styles[`nav__item`]}>
              
-                <a className={styles[`nav__link`]}>Contato</a>
+                <a href="#contato" className={styles[`nav__link`]}>Contato</a>
               
             </li>
           </ul>
