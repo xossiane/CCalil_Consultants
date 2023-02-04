@@ -1,17 +1,20 @@
 @import "/src/styles/variables";
 .CardText{
-    
+    margin: auto;
     min-height: 21.7rem;
     align-items: center;
 margin: auto;
 @media (min-width: 700px) {
-   display: flex;
-   
+    display: flex;
+    flex-direction: row;
+    /* margin: auto; */
+    max-width: 100%;
+    justify-content: space-around;
 }
     &__container{
         padding: 1.6rem;
         border-radius: 0.4rem;
-        background-color: $background;
+        background-color: #EFF0F4;
         position: relative;
         display: flex;
         margin: auto;
@@ -20,8 +23,8 @@ margin: auto;
         border: 1px solid #C0C3CF;
         @media (min-width: 700px) {
             margin: 3rem;
-            height: 30.4rem;
-            width: 59rem;
+            min-height: 32rem;
+            width: 46rem;
          }
     }
    
@@ -40,7 +43,8 @@ margin: auto;
         font-size: 1.7rem;
         line-height: 2rem;
         text-align: left;
-        color: $blue;
+        color: #012D78;
+        margin: auto auto 1rem auto;
     }
         
         
