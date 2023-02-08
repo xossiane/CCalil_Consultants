@@ -4,7 +4,7 @@
     background-color: $blue;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    height: 40rem;
+    height: auto;//40rem;
     &__title{
         text-align: left;
         margin-left: 2rem;
@@ -72,7 +72,7 @@
     display: flex;
     position: absolute;
     font-weight: 800;
-    margin-top: -15rem;
+    margin-top: -12rem;
     line-height: 0;
     font-family: 'Comic Sans';
     color: #fff;
@@ -80,7 +80,7 @@
     transform: rotate(180deg);
     @media (min-width: 700px) {
        position: absolute;
-       margin-left: 28rem;
+       margin-left: 2rem;
       }
    
 

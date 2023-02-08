@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../organisms/NavBar";
 import Button from "../../atoms/Button";
-import Banner from "../../../assets/images/Hero/Banner.png";
+import Banner from "../../../assets/images/Hero/CCC-banner-teste2.png";
 import styles from "./styles.module.scss";
 import CardIcons from "../../molecules/CardIcons";
 import CardText from "../../molecules/CardText";
@@ -33,17 +33,17 @@ function HomePage() {
     {
       id: 0,
       title: "MISSÃO",
-      text: "Indicar os melhores profissionais para os nossos clientes, através de um serviço personalizado e de qualidade.",
+      text: "Fortalecer as empresas através de um excelente processo seletivo.",
     },
     {
       id: 1,
       title: "VISÃO",
-      text: "Ser reconhecida como empresa séria e responsável e, fazer parte do sucesso de nossos clientes. ",
+      text: "Ser reconhecida pelas empresas e profissionais como referência em Recrutamento e Seleção, e fazer parte do sucesso de nossos clientes.",
     },
     {
       id: 0,
       title: "VALORES",
-      text: "Ética, respeito, honestidade, transparência, responsabilidade e comprometimento.",
+      text: "Ética, respeito, transparência, relacionamento e comprometimento.",
     },
   ];
 
@@ -56,111 +56,94 @@ function HomePage() {
           className={styles[`HomePage__img`]}
           alt="Soluções adequadas às particularidades de cada organização"
         ></img>
-        <h1 className={styles[`HomePage__headerText`]}>
+
+        {/* <h1 className={styles[`HomePage__headerText`]}>
           Desde 2008, a CCalil Consultores oferece soluções, de forma acertada,
           para seus clientes.{" "}
-        </h1>
+        </h1> */}
+
       </header>
+
+      <div id="quemsomos" className={styles[`HomePage__description`]}>
+        <h2 className={styles[`HomePage__description--title`]}>
+          A CCalil Consultores
+        </h2>
+        <p className={styles[`HomePage__description--text`]}>
+          A CCalil Consultores nasceu em 2008 como uma consultoria especializada em <strong className={styles.bolded}>atrair, recrutar e selecionar </strong>
+          profissionais para atender empresas nacionais e globais, <strong className={styles.bolded}>atendendo aos objetivos estratégicos do negócio e em conformidade com a cultura organizacional.</strong>
+          <br></br>
+          <br></br>
+          Nossos serviços são conduzidos por profissionais com décadas de experiência, grande expertise em processos seletivos, atendendo empresas de todos os segmentos industriais do país.
+          <br></br>
+        </p>
+      </div>
+      <div className={styles[`HomePage__profile`]}>
+        <div className={styles[`HomePage__profileSection`]}>
+          <img
+            src={cida}
+            alt="Cida Calil"
+            className={styles[`HomePage__avatar`]}
+          ></img>
+          <h2 className={styles[`HomePage__avatar--name`]}>Cida Calil - Headhunter</h2>
+        </div>
+        <p className={styles[`HomePage__profile--text`]}>
+          Vivência de mais de 35 anos em Recursos Humanos.
+          <br></br>
+          <br></br>
+          Carreira desenvolvida em empresas multinacionais e nacionais como BCP/Claro, Dow Quimica, Farmasa e Bola Brasil.
+          <br></br>
+          <br></br>
+          Coach certificada pela Sociedade Brasileira de Coaching (SBC) e Pós Graduada em Gestão Empresarial.
+          <br></br>
+          <br></br>
+          Inglês fluente.
+        </p>
+      </div>
+      <div className={styles[`HomePage__values`]}>
+        <CardText mt="mt" className={styles[`HomePage__values--card`]} list={cardInfo2} />
+      </div>
+
       <div className={styles[`HomePage__cardIcons`]}>
         <h2 className={styles[`HomePage__cardIcons--text`]}>
           CCalil em números
         </h2>
         <CardIcons />
       </div>
-      <div  id="servicos" className={styles[`HomePage__cardText`]}>
-        <h2  className={styles[`HomePage__cardText--text`]}>Nossos serviços</h2>
+      <div id="servicos" className={styles[`HomePage__cardText`]}>
+        <h2 className={styles[`HomePage__cardText--text`]}>Nossos serviços</h2>
         <CardText list={cardInfo} />
       </div>
       <div id="contato" className={styles[`HomePage__solicitation`]}>
-      <div className={styles[`HomePage__solicitation1`]}>
-      <h2 className={styles[`HomePage__solicitation2--subtitle`]}>Para empresas</h2>
-        <h2 className={styles[`HomePage__solicitation--text`]}>
-          Precisa de algum serviço?
-        </h2>
-        
-        <Button>Contratar Serviço</Button>
-      
+        <div className={styles[`HomePage__solicitation1`]}>
+          <h2 className={styles[`HomePage__solicitation2--subtitle`]}>Para empresas</h2>
+          <h2 className={styles[`HomePage__solicitation--text`]}>
+            Precisa de algum serviço?
+          </h2>
+
+          <Button>Contratar Serviço</Button>
+
         </div>
         <div className={styles[`HomePage__solicitation2`]}>
           <h2 className={styles[`HomePage__solicitation2--subtitle`]}>Para candidatos</h2>
-        <h2 className={styles[`HomePage__solicitation--text`]}>
-          Buscando colocação?
-        </h2>
-        <a href="mailto:cv@ccalilconsultores.com.br">
-        <Button mt="mt">Enviar CV</Button>
-        </a>
+          <h2 className={styles[`HomePage__solicitation--text`]}>
+            Buscando colocação?
+          </h2>
+          <a href="mailto:cv@ccalilconsultores.com.br">
+            <Button mt="mt">Enviar CV</Button>
+          </a>
         </div>
       </div>
-      <div id="team" className={styles[`HomePage__description`]}>
-        <h2 className={styles[`HomePage__description--title`]}>
-          A CCalil Consultores
-        </h2>
-        <p className={styles[`HomePage__description--text`]}>
-          <strong className={styles.bolded}>Fundada em 2008,</strong> a CCalil Consultores possui
-          <strong className={styles.bolded}>experiência</strong> e <strong className={styles.bolded}>maturidade</strong> na condução
-          dos serviços que oferece.<br></br>
-          <br></br>
-          Nossa equipe é formada por profissionais que trabalham de
-          <strong className={styles.bolded}>maneira personalizada,</strong> procurando primeiramente
-          entender a cultura e particularidades de cada organização para
-          oferecer <strong className={styles.bolded}>soluções adequadas</strong> as suas necessidades.
-          <br></br>
-          <br></br>
-          Atendemos conceituadas empresas nacionais e multinacionais, dos mais
-          variados setores, tais como:{" "}
-          <strong className={styles.bolded}>
-            Indústrias Químicas, Farmacêuticas, Telecomunicações, T.I.,
-            Importadora de Mármores, Empresa de Engenharia, Escritório de
-            Arquitetura, Indústria de Autopeças etc.
-          </strong>{" "}
-        </p>
-      </div>
-      <div className={styles[`HomePage__profile`]}>
-        <div className={styles[`HomePage__profileSection`]}>
-        <img
-          src={cida}
-          alt="Cida Calil"
-          className={styles[`HomePage__avatar`]}
-        ></img>
-        <h2 className={styles[`HomePage__avatar--name`]}>Cida Calil - Diretora da CCalil Consultores</h2>
-        </div>
-        <p className={styles[`HomePage__profile--text`]}>
-          Experiência de <strong>mais de 35 anos</strong> em Recursos Humanos.{" "}
-          <br></br>
-          <br></br>
-          Vivência profissional em empresas multinacionais e nacionais como:{" "}
-          <strong>
-            Laboratório Americano de Farmacoterapia (Farmasa), BCP/Claro, Bola
-            Brasil (segmento esportivo) e Dow Química.
-          </strong>{" "}
-          <br></br>
-          <br></br>
-          Atua desde 2008 como Consultora na CCalil Consultores.<br></br>
-          <br></br>
-          <strong>Coach</strong> certificada pela Sociedade Brasileira de
-          Coaching (SBC) e Pós Graduada em Gestão Empresarial.<br></br>
-          <br></br>
-          Teve participação direta do maior e mais rápido "start-up" - BCP (hoje
-          Claro), com a{" "}
-          <strong>
-            contratação de cerca de 2.700 pessoas em apenas um ano.
-          </strong>
-          <br></br>
-          <br></br>
-          <strong>Fluente</strong> no Inglês.
-        </p>
-      </div>
-      <div className={styles[`HomePage__values`]}>
-      <CardText mt="mt" className={styles[`HomePage__values--card`]} list={cardInfo2} />
-      </div>
+
+
       <CardDepo></CardDepo>
-      <div className={styles[`HomePage__responsability`]}>
-       
+
+      <div id="responsabilidadesocial" className={styles[`HomePage__responsability`]}>
+
         <h2 className={styles[`HomePage__responsability--title`]}>Responsabilidade Social</h2>
-        <img src={responsability} className={styles[`HomePage__img--mt`]} alt="responsibility"/>
-        <h2 className={styles[`HomePage__responsability--subtitle`]} >Projeto Biblioteca Infanto-Juvenil - Associação Amigos Beija-Flor</h2>
-        <p className={styles[`HomePage__responsability--text`]}>A CCalil Consultores apoia a Associação Amigos Beija-Flor desde a sua fundação, em 1999 e, transformação em Associação, em 2005. Participa de diversos projetos, como o Projeto Biblioteca Beija-Flor acima.
-Caso queira saber mais sobre a Associação, clique <a>aqui.</a></p>
+        <img src={responsability} className={styles[`HomePage__img--mt`]} alt="responsibility" />
+        <h2 className={styles[`HomePage__responsability--subtitle`]} >Projeto Biblioteca Infanto-Juvenil - Associação Amigo Beija-Flor</h2>
+        <p className={styles[`HomePage__responsability--text`]}>A CCalil Consultores apoia a Associação Amigo Beija-Flor desde a sua fundação, em 1999 e, transformação em Associação, em 2005. Participa de diversos projetos, como o Projeto Biblioteca Beija-Flor acima.
+          Caso queira saber mais sobre a Associação, clique <a>aqui.</a></p>
       </div>
       <Footer></Footer>
     </>

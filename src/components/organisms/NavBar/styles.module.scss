@@ -7,7 +7,7 @@
     z-index: 1000;
     background-color: #EFF0F4;
     margin: 0 auto;
-    padding: 0 1.75rem;
+    padding: 0 0.75rem;
     height: 8.6rem;
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.6);
     
@@ -36,8 +36,8 @@
   
     &__logo {
       margin-left: 135%;
-      height: 5.9rem;
-      width: 10.68rem;
+      height: auto;//5.9rem;
+      width: 180px;
       cursor: pointer;
       @media (min-width: 1024px) {
        display: flex;

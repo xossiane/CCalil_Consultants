@@ -1,9 +1,7 @@
-
-
 .nav {
-font-family: Sansita;
+  font-family: Sansita;
   box-sizing: border-box;
-  background-color:#EFF0F4;
+  background-color: #EFF0F4;
   margin: 0 auto;
   padding: 0 1.75rem;
   height: 8.6rem;
@@ -22,6 +20,7 @@ font-family: Sansita;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+
     @media (min-width: 1024px) {
       margin: 0 auto;
       height: 14.2rem;
@@ -30,15 +29,17 @@ font-family: Sansita;
     }
   }
 
-   &__logo {
-     cursor: pointer;
-     @media (min-width: 1024px) {
-       width: 13rem;
-     }
-   }
+  &__logo {
+    cursor: pointer;
+
+    @media (min-width: 1024px) {
+      width: 13rem;
+    }
+  }
 
   &__list {
     display: none;
+
     @media (min-width: 1024px) {
       display: flex;
       flex-direction: row;
@@ -47,6 +48,7 @@ font-family: Sansita;
       padding: 0;
       width: 71rem;
     }
+
     @media (min-width: 1440px) {
       width: 109rem;
     }
@@ -58,16 +60,19 @@ font-family: Sansita;
       width: 100%;
       margin-top: 8.6rem;
       padding: 0;
+
       @media (min-width: 1024px) {
         display: none;
       }
     }
   }
+
   &__item {
     list-style: none;
     padding: 3rem 1rem;
     background: #EFF0F4;
     border-bottom: 0.1rem solid gray;
+
     @media (min-width: 1024px) {
       display: flex;
       justify-content: space-between;
@@ -75,6 +80,7 @@ font-family: Sansita;
       max-width: 14rem;
       text-align: center;
       border-bottom: none;
+
       @media (min-width: 1440px) {
         // margin-left: 3rem;
         max-width: 11rem;
@@ -89,6 +95,7 @@ font-family: Sansita;
     color: #012D78;
     cursor: pointer;
     text-decoration: none;
+
     @media (min-width: 1024px) {
       display: block;
       text-decoration: none;
@@ -107,6 +114,7 @@ font-family: Sansita;
     top: -7rem;
     left: 1rem;
     transition: 5s ease-in-out;
+
     @media (min-width: 1024px) {
       display: none;
     }
@@ -119,6 +127,7 @@ font-family: Sansita;
     top: -7rem;
     left: 1rem;
     transition: 0.5s ease-in-out;
+
     @media (min-width: 1024px) {
       display: none;
     }

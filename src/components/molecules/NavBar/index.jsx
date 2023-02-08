@@ -11,26 +11,41 @@ export default function NavBar() {
       <div className={styles[`nav__internal`]}>
         <div className={styles[`nav__menu`]}>
           <ul className={styles[`nav__list`]}>
-            
-            <li className={styles[`nav__item`]}>
+
+            {/* <li className={styles[`nav__item`]}>
              
                 <a href="#home" className={styles[`nav__link`]}>Home</a>
               
+            </li> */}
+            <li className={styles[`nav__item`]}>
+
+              <a href="#quemsomos" className={styles[`nav__link`]}>Quem somos</a>
+
             </li>
             <li className={styles[`nav__item`]}>
-              
-                <a href="#servicos" className={styles[`nav__link`]}>Serviços</a>
-              
+
+              <a href="#servicos" className={styles[`nav__link`]}>Serviços</a>
+
             </li>
             <li className={styles[`nav__item`]}>
-              
-                <a href="#team" className={styles[`nav__link`]}>Team</a>
-              
+
+              <a href="#clientes" className={styles[`nav__link`]}>Clientes</a>
+
             </li>
-            <li  className={styles[`nav__item`]}>
-             
-                <a href="#contato" className={styles[`nav__link`]}>Contato</a>
-              
+            <li className={styles[`nav__item`]}>
+
+              <a href="#depoimentos" className={styles[`nav__link`]}>Depoimentos</a>
+
+            </li>
+            <li className={styles[`nav__item`]}>
+
+              <a href="#responsabilidadesocial" className={styles[`nav__link`]}>Responsabilidade Social</a>
+
+            </li>
+            <li className={styles[`nav__item`]}>
+
+              <a href="#contato" className={styles[`nav__link`]}>Contato</a>
+
             </li>
           </ul>
           <ul className={styles[`nav__list--mobile`]}>
@@ -39,14 +54,14 @@ export default function NavBar() {
                 className={styles[`nav__open`]}
                 onClick={() => setShowMenu(false)}
               >
-               <img
+                <img
                   src={Hamburguer}
                   alt="Open menu"
-                /> 
+                />
               </button>
             ) : (
               <>
-              
+
                 <button
                   className={styles[`nav__close`]}
                   onClick={() => setShowMenu(true)}
@@ -54,49 +69,49 @@ export default function NavBar() {
                   <img
                     src={Close}
                     alt="Close Menu"
-                  /> 
+                  />
                 </button>
                 <li className={styles[`nav__item`]}>
-                  
-                    <a
-                      className={styles[`nav__link`]}
-                      onClick={() => setShowMenu(true)}
-                    >
-                      Home
-                    </a>
-               
+
+                  <a
+                    className={styles[`nav__link`]}
+                    onClick={() => setShowMenu(true)}
+                  >
+                    Home
+                  </a>
+
                 </li>
                 <li className={styles[`nav__item`]}>
-                  
-                    <a
-                      className={styles[`nav__link`]}
-                      onClick={() => setShowMenu(true)}
-                    >
-                      Serviços
-                    </a>
-                  
+
+                  <a
+                    className={styles[`nav__link`]}
+                    onClick={() => setShowMenu(true)}
+                  >
+                    Serviços
+                  </a>
+
                 </li>
                 <li className={styles[`nav__item`]}>
-                  
-                    <a
-                      className={styles[`nav__link`]}
-                      onClick={() => setShowMenu(true)}
-                    >
-                      Team
-                    </a>
-                  
+
+                  <a
+                    className={styles[`nav__link`]}
+                    onClick={() => setShowMenu(true)}
+                  >
+                    Quem Somos
+                  </a>
+
                 </li>
                 <li className={styles[`nav__item`]}>
-                  
-                    <a
-                      className={styles[`nav__link`]}
-                      onClick={() => setShowMenu(true)}
-                    >
-                     Contato
-                    </a>
-                 
+
+                  <a
+                    className={styles[`nav__link`]}
+                    onClick={() => setShowMenu(true)}
+                  >
+                    Contato
+                  </a>
+
                 </li>
-              
+
               </>
             )}
           </ul>
