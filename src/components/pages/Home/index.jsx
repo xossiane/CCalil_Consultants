@@ -107,7 +107,12 @@ function HomePage() {
         <h2 className={styles[`HomePage__cardIcons--text`]}>
           CCalil em números
         </h2>
-        <CardIcons />
+        <div className={styles[`HomePage__cardIcons--container`]}>
+        <CardIcons number={13} text="anos de atuação" icon={"src/assets/images/time.png"}></CardIcons>
+        <CardIcons number={39} text="empresas atendidas" icon={"src/assets/images/house.png"}></CardIcons>
+        <CardIcons number={300} text="contratações" icon={"src/assets/images/people.png"}></CardIcons>
+        </div>
+        
       </div>
       <div id="servicos" className={styles[`HomePage__cardText`]}>
         <h2 className={styles[`HomePage__cardText--text`]}>Nossos serviços</h2>

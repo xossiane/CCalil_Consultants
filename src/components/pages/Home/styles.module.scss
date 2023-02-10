@@ -41,15 +41,27 @@
     }
 
     &__cardIcons {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         background-color: $blueBackground;
-        padding: 1.2rem;
-
+        padding: 3.2rem;
+        
+&--container{
+    flex-direction: column;
+    @media (min-width: 1440px) {
+        
+    display: flex;
+    flex-direction: row;}
+}
         &--text {
+            display: flex;
             font-family: 'Sansita';
             font-weight: 700;
             font-size: 1.9rem;
             line-height: 2rem;
             color: $blue;
+            justify-content: center;
             @media (min-width: 700px) {
                 font-size: 3.5rem;
             }
@@ -312,6 +324,4 @@ margin-bottom: 5rem;
     
    
 }
-
-
 
