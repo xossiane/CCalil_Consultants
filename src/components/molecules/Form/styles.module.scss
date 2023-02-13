@@ -1,0 +1,33 @@
+@import "/src/styles/variables";
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    padding: 3rem;
+    text-align: left;
+    &Input{
+        border-radius: 2rem;
+        padding: 1.4rem;
+        &::placeholder{
+            padding: 2rem;
+            font-style: 'sansita';
+            font-size: 2rem;
+        }
+        &Title{
+            font-size: 2rem;
+            font-weight: 400;
+            padding: 1rem;
+
+        }
+    }
+   
+}
+.btnForm{
+    
+    justify-content: center;
+    margin: 2rem auto;
+    opacity: 0.5;
+    &:hover{
+       opacity: 1;
+    }
+}
