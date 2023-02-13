@@ -113,6 +113,8 @@
     }
     &__solicitation1{
         padding-bottom: 2rem;
+        @media (min-width: 700px) {
+            padding-bottom: 0;}
     }
     &__description{
         scroll-margin-top: 20rem;
