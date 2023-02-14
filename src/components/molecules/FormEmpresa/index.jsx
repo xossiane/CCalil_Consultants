@@ -34,19 +34,21 @@ function SignupForm(){
      },
      onSubmit: values => {
        alert(JSON.stringify(values, null, 2));
+       console.log(values);
      },
    });
    return (
     
-     <form className={styles.form} onSubmit={formik.handleSubmit}>
+     <form className={styles.form} id="empresa" onSubmit={formik.handleSubmit}>
        <label htmlFor="name" className={styles.formInputTitle} >Nome</label>
        <input
        className={styles.formInput}
          id="name"
          name="name"
          type="text"
-         onBlur={formik.handleBlur}
          placeholder='insira um nome válido'
+         onChange={formik.handleChange}
+         onBlur={formik.handleBlur}
          value={formik.values.firstName}
         
        />
@@ -55,9 +57,10 @@ function SignupForm(){
        <input
         className={styles.formInput}
          id="number"
-         number="number"
+         name="number"
          type="number"
          placeholder='DDD + número'
+         onChange={formik.handleChange}
          onBlur={formik.handleBlur}
          value={formik.values.number}
         
@@ -74,7 +77,7 @@ function SignupForm(){
          value={formik.values.email}
        />
  
-       <Button className={styles.btnForm} >Submeter CV</Button>
+       <Button type="submit" className={styles.btnForm}>Submeter CV</Button>
      </form>
      
    );

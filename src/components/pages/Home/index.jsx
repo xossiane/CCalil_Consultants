@@ -9,7 +9,7 @@ import cida from "../../../assets/images/cida.png";
 import responsability from "../../../assets/images/responsability.png";
 import CardDepo from "../../molecules/CardDepo";
 import Footer from "../../organisms/Footer";
-import SignupForm from "../../molecules/Form";
+import SignupForm from "../../molecules/FormEmpresa";
 
 function HomePage() {
   const cardInfo = [
