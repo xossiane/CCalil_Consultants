@@ -15,7 +15,14 @@
   width: 100%;
   padding-left: 2rem;
   padding-bottom: 10%;
+  @media (min-width:700px) {
+    height: fit-content;
 
+  }
+  @media (min-width: 1024px) {
+    height: 35rem;
+
+  }
   &__text {
     text-align: left;
     font-family: 'Sansita';
@@ -38,12 +45,24 @@
     flex-direction: column;
     line-height: 0.4rem;
     margin-top: 2rem;
-
-    &--desktop {
-      @media (min-width: 700px) {
+    &Desktop{
+      display: flex;
+      &--row{
         display: flex;
-
-        flex-direction: row;
+        align-items: center;
+      }
+      &--title{
+        font-size: 2rem;
+      }
+    }
+   
+    &--desktop {
+      @media (min-width: 1024px) {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: space-evenly;
+      width: 80%;
 
       }
 
@@ -56,11 +75,12 @@
 
     &--info {
       @media (min-width: 700px) {
-        display: flex;
+       /*  display: flex;
         flex-direction: column;
         line-height: 2rem;
         margin-left: 10%;
-        margin-top: 4rem;
+        margin-top: 4rem; */
+        display: none;
 
       }
 
@@ -76,7 +96,15 @@
     width: 50%;
     margin-left: 1rem;
     margin-top: 3rem;
-
+&Desktop{
+  width: fit-content;
+  display: flex;
+  &--symbol{
+height: fit-content;
+margin-right: 1rem;
+  }
+ 
+}
 
     &--desktop {
       align-content: space-between;
@@ -136,12 +164,13 @@
     display: none;
 
     @media (min-width: 700px) {
-      display: flex;
+      
+     /*  display: flex;
       flex-direction: column;
       margin-top: 5rem;
       margin-left: 10%;
       line-height: 2rem;
-      width: 11%;
+      width: 11%; */
     }
 
     @media (min-width: 1024px) {
@@ -157,6 +186,9 @@
       height: fit-content;
       display: flex;
       flex-direction: column;
+      @media (min-width: 700px){
+        font-size: 2rem;
+      }
     }
   }
 }

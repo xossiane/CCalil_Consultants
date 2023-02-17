@@ -1,9 +1,10 @@
 @import "/src/styles/variables";
-.CardText{
+.CardValues{
     margin: auto;
     min-height: 21.7rem;
     align-items: center;
-margin: auto;
+    margin: auto;
+    background-color: white;
 @media (min-width: 700px) {
     display: flex;
     flex-direction: row;
@@ -15,17 +16,16 @@ margin: auto;
     &__container{
         padding: 1.6rem;
         border-radius: 0.4rem;
-        background-color: #EFF0F4;
+        background-color: white;
         position: relative;
         display: flex;
         margin: auto;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        border: 1px solid #C0C3CF;
+        
         @media (min-width: 700px) {
             margin: 3rem;
             margin-top: 0;
-            min-height: 32rem;
             width: 46rem;
             display: flex;
             align-items: flex-start;
@@ -35,6 +35,7 @@ margin: auto;
     }
    
     &__info{
+        
         display: flex;
         margin: auto;
         flex-direction: column;
@@ -50,8 +51,8 @@ margin: auto;
         font-weight: 600;
         font-size: 1.7rem;
         line-height: 2rem;
-        text-align: left;
-        color: #012D78;
+        text-align: center;
+        color: #001E52;
         margin: auto auto 1rem auto;
         display: flex;
         
@@ -60,7 +61,8 @@ margin: auto;
         
    
     &__text{
-        text-align: left;
+        text-align: center;
+        color: #001E52;
         font-family: "Poppins";
     font-weight: 400;
     font-size: 1.5rem;

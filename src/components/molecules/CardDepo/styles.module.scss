@@ -1,20 +1,26 @@
 @import "/src/styles/variables";
 .CardDepo{
     
-    background-color: $blue;
+    background-color: #012D78;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    height: auto;//40rem;
+    height: auto;
+    @media (min-width: 1024px) {
+        min-height: 70rem;
+        margin: auto;
+        padding-top: 7rem;
+    }
     &__title{
-        text-align: left;
+        text-align: center;
         margin-left: 2rem;
         color: $blueBackground;
         font-family: 'Sansita';
         font-size: 1.9rem;
         @media (min-width: 1024px) {
-            position: absolute;
+            position: relative;
             font-size: 2.9rem;
-            margin-left: 4rem;
+           
+
            }
         
 
@@ -54,9 +60,10 @@
     position: relative;
     @media (min-width: 1024px) {
         margin-top: 10rem;
-        width: 70%;
+        width: 60%;
         font-size: 2rem;
         line-height: 3rem;
+        text-align: center;
        }
     
 
@@ -80,7 +87,7 @@
     transform: rotate(180deg);
     @media (min-width: 700px) {
        position: absolute;
-       margin-left: 2rem;
+       margin-left: 15rem;
       }
    
 

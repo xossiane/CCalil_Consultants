@@ -1,10 +1,11 @@
 @import "/src/styles/variables";
 .CardIcons{
-    @media (min-width: 700px) {
+    @media (min-width: 1024px) {
         display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1.5rem;
+    
     
     
     } 
@@ -22,8 +23,10 @@
         margin-bottom: 2rem;
         justify-content: space-around;
         align-content: center;
-        @media (min-width: 700px) {
-            width: 45rem;
+        @media (min-width: 1024px) {
+            background-color: #E9EFFF;
+            border: none;
+          
             height: 25rem;
             margin: 1rem;        }
     }
@@ -33,10 +36,10 @@
         margin-top: 2.2rem;
         margin-right: 2rem;
         
-        @media (min-width: 700px) {
+        @media (min-width: 1024px) {
             
             position: relative;
-           
+            display: flex;
             margin-right: 2rem;      }
         
        
@@ -53,8 +56,8 @@
     text-align: center;
     align-content: stretch;
     justify-content: center;
-    @media (min-width: 700px) {
-
+    @media (min-width: 1024px) {
+        font-family: 'Sansita';
         position: relative;
         margin-top: 6.2rem;
         margin-right: 2rem;      
@@ -64,6 +67,7 @@
         
     }
     &__number{
+        display: flex;
         font-family: "Poppins";
         font-weight: 600;
         font-size: 3.2rem;
@@ -86,7 +90,8 @@
     
     display: flex;
     margin-top: 5.6rem;
-    @media (min-width: 700px) {
+    @media (min-width: 1024px) {
+        font-family: 'Sansita';
         font-size: 2.5rem;
         line-height: 2.5rem;
     }
