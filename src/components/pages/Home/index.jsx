@@ -141,8 +141,8 @@ function HomePage() {
           <h2 className={styles[`HomePage__solicitation--text`]}>
             Precisa de algum serviço?
           </h2>
-
-          <Button>Contratar Serviço</Button>
+<a href="mailto:cida.calil@ccalilconsultores.com.br"><Button>Contratar Serviço</Button></a>
+          
 
         </div>
         <div className={styles[`HomePage__solicitation2`]}>
