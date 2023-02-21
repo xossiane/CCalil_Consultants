@@ -284,11 +284,18 @@ height: fit-content;}
 
 &__values{
     margin-top: 0.7rem;
-    background-color: white;
+    background-color: $blueBackground;
     padding-top: 0.19rem;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2.6rem;
+    @media (min-width: 700px) {
+        background-color: white;
+    }
+    &--cardMobile{
+        @media (min-width: 700px) {
+        display: none;}
+    }
 }
 
 &__title{

@@ -103,6 +103,9 @@ function HomePage() {
       </div>
       <div className={styles[`HomePage__values`]}>
         <CardValues mt="mt" className={styles[`HomePage__values--card`]} list={cardInfo2} />
+        <span className={styles[`HomePage__values--cardMobile`]}>
+          <CardText list={cardInfo2}/>
+        </span>
       </div>
 
       <div className={styles[`HomePage__cardIcons`]}>
