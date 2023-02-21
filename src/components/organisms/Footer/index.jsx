@@ -18,7 +18,7 @@ export default function Footer() {
             <p className={styles[`footer__location--title`]}><strong>Localização:</strong></p> <p>São Paulo/SP</p>
           </div>
           <div className={styles[`footer__contact--info`]}>
-          <p className={styles[`footer__location--title`]}>Contato</p>
+          
             <p><strong>Whatsapp:</strong> +55 (11)99185-0112</p>
 
             <p><strong>Email:</strong><a style={{ color: 'white' }} href="mailto:cv@ccalilconsultores.com.br">{" "}cida.calil@ccalilconsultores.com</a></p>
@@ -33,7 +33,7 @@ export default function Footer() {
             <span className={styles[`footer__contactDesktop--row`]}><img className={styles[`footer__iconsDesktop--symbol`]} src={linkedinsymbol} alt="LinkedIn"/><p><strong>LinkedIn:</strong> +55 (11)99185-0112</p></span>
 
           </div>
-          {/* <div className={styles[`footer__icons`]}>
+          <div className={styles[`footer__icons`]}>
             <div className={styles[`footer__icons--desktop`]}>
               <h2 className={styles[`footer__icons--title`]}>Redes Sociais</h2>
               <div className={styles[`footer__icons--desktopUnit`]}>
@@ -61,7 +61,7 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-          </div> */}
+          </div> 
         </div>
       </div>
 

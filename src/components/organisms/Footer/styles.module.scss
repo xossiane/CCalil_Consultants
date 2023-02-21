@@ -47,6 +47,21 @@
     margin-top: 2rem;
     &Desktop{
       display: flex;
+    &--info{
+      display: none;
+      @media (min-width: 700px){
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 25rem;
+      }
+      @media (min-width: 700px){
+        margin-left: 50%; 
+        margin-top: 2%;
+        
+      }
+    }
+
       &--row{
         display: flex;
         align-items: center;
@@ -54,6 +69,7 @@
       &--title{
         font-size: 2rem;
       }
+     
     }
    
     &--desktop {
@@ -92,10 +108,10 @@
     display: flex;
     flex-direction: row;
     justify-items: flex-start;
-    justify-content: space-around;
-    width: 50%;
+    
     margin-left: 1rem;
     margin-top: 3rem;
+    
 &Desktop{
   width: fit-content;
   display: flex;
@@ -108,13 +124,20 @@ margin-right: 1rem;
 
     &--desktop {
       align-content: space-between;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
       @media (min-width: 700px) {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
+        justify-content: flex-start;
       }
-
+      @media (min-width: 1024px){
+        display: none;
+            }
     }
 
     &--desktopUnit {
@@ -150,6 +173,7 @@ margin-right: 1rem;
 
     @media (min-width: 700px) {
       margin-top: 3rem;
+      width: 100%;
 
     }
   }
