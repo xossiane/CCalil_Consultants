@@ -52,11 +52,11 @@
       @media (min-width: 700px){
         display: flex;
         flex-direction: column;
-        margin: auto;
         width: 25rem;
       }
-      @media (min-width: 700px){
+      @media (min-width: 1024px){
         margin-left: 50%; 
+        
         margin-top: 2%;
         
       }
@@ -76,9 +76,10 @@
       @media (min-width: 1024px) {
       display: flex;
       flex-direction: row;
-      align-items: baseline;
+   
       justify-content: space-evenly;
       width: 80%;
+      margin: auto;
 
       }
 

@@ -16,7 +16,8 @@
                 
                 display: flex;
                 margin-left: 5%;
-                  
+                min-width: 22%;
+                
                 }
         }
     }
@@ -181,7 +182,8 @@ height: fit-content;}
    
             @media (min-width: 700px) {
                 position: relative;
-                width: 50%;
+                font-size: 2rem;
+                width: 70%;
                 height: fit-content;
                 display: inline-block;
             }
@@ -222,6 +224,7 @@ height: fit-content;}
             margin-bottom: 3.6rem;
             @media (min-width: 700px) {
                 width: 40%;
+                font-size:2rem;
                 /* margin-left: 5%; */
                 /* line-height: 2.5rem; */
                 bottom: -111px;

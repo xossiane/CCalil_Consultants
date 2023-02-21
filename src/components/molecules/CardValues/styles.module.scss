@@ -56,7 +56,9 @@
         color: #001E52;
         margin: auto auto 1rem auto;
         display: flex;
-        
+        @media (min-width: 700px){
+            font-size: 2rem;
+        }
     }
         
         
@@ -71,7 +73,9 @@
     position: relative;
     margin-bottom: 1.2rem;
     display: flex;
-    
+    @media (min-width: 700px){
+        font-size: 2rem;
+    }
     }
        
 }   
