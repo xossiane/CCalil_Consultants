@@ -1,13 +1,19 @@
 import styles from "./styles.module.scss";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Hamburguer from '../../../assets/images/Hamburguer.png'
 import Close from '../../../assets/images/Close.png'
+
+
 
 export default function NavBar() {
   const [showMenu, setShowMenu] = useState(true);
 
+  useEffect(() => {
+    document.addEventListener("mousedown", setShowMenu);
+  }, [setShowMenu]);
+
   return (
-    <nav className={styles[`nav`]}>
+    <nav className={styles[`nav`]} >
       <div className={styles[`nav__internal`]}>
         <div className={styles[`nav__menu`]}>
           <ul className={styles[`nav__list`]}>
@@ -74,6 +80,7 @@ export default function NavBar() {
                 <li className={styles[`nav__item`]}>
 
                   <a
+                  href="#home"
                     className={styles[`nav__link`]}
                     onClick={() => setShowMenu(true)}
                   >
@@ -84,6 +91,7 @@ export default function NavBar() {
                 <li className={styles[`nav__item`]}>
 
                   <a
+                  href="#servicos"
                     className={styles[`nav__link`]}
                     onClick={() => setShowMenu(true)}
                   >
@@ -94,6 +102,7 @@ export default function NavBar() {
                 <li className={styles[`nav__item`]}>
 
                   <a
+                  href="#quemsomos"
                     className={styles[`nav__link`]}
                     onClick={() => setShowMenu(true)}
                   >
@@ -104,6 +113,7 @@ export default function NavBar() {
                 <li className={styles[`nav__item`]}>
 
                   <a
+                  href="#contato"
                     className={styles[`nav__link`]}
                     onClick={() => setShowMenu(true)}
                   >

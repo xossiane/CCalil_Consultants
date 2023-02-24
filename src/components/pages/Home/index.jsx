@@ -11,6 +11,7 @@ import responsability from "../../../assets/images/responsability.png";
 import CardDepo from "../../molecules/CardDepo";
 import Footer from "../../organisms/Footer";
 import { ContactUs } from "../../molecules/FormCandidate";
+import Hero from "../../molecules/Hero";
 
 function HomePage() {
   const cardInfo = [
@@ -53,12 +54,7 @@ function HomePage() {
     <>
       <Header />
       <header id="home">
-        <img
-          src={Banner}
-          className={styles[`HomePage__img`]}
-          alt="Soluções adequadas às particularidades de cada organização"
-        ></img>
-
+        <Hero></Hero>
         {/* <h1 className={styles[`HomePage__headerText`]}>
           Desde 2008, a CCalil Consultores oferece soluções, de forma acertada,
           para seus clientes.{" "}
@@ -108,9 +104,9 @@ function HomePage() {
         </span>
       </div>
 
-      <div className={styles[`HomePage__cardIcons`]}>
+      <div  id="clientes" className={styles[`HomePage__cardIcons`]}>
         <h2 className={styles[`HomePage__cardIcons--text`]}>
-          CCalil em números
+          Clientes
         </h2>
         <div className={styles[`HomePage__cardIcons--container`]}>
         <CardIcons number={13} text="anos de atuação" icon={"src/assets/images/time.png"}></CardIcons>

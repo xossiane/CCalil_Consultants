@@ -1,0 +1,20 @@
+.Hero {
+    display: flex;
+    background: rgb(1,45,120);
+    background: linear-gradient(90deg, rgba(1,45,120,1) 0%, rgba(233,239,255,1) 49%, rgba(6,38,150,1) 100%);
+    margin-top: 7rem;
+    object-fit: fit;
+    &__title{
+        margin: 7rem auto;
+        display: flex;
+        font-size: 3rem;
+        align-items: center;
+        max-width: 80%;
+        line-height: 7rem;
+        text-shadow: rgb(255, 255, 255) 1px 0px 0px, rgb(255, 255, 255) 0.540302px 0.841471px 0px, rgb(255, 255, 255) -0.416147px 0.909297px 0px, rgb(255, 255, 255) -0.989992px 0.14112px 0px, rgb(255, 255, 255) -0.653644px -0.756802px 0px, rgb(255, 255, 255) 0.283662px -0.958924px 0px, rgb(255, 255, 255) 0.96017px -0.279415px 0px;
+    }
+    @media (min-width: 700px) {
+        width: 97vw;
+    height: 40vh;
+    }
+   }

@@ -49,6 +49,7 @@
         background-color: $blueBackground;
         padding-bottom: 4rem;
         @media (min-width: 1024px){
+            scroll-margin-top: 20rem;
             padding-top: 3.2rem;
             padding-bottom: 1rem;
         }
@@ -258,17 +259,17 @@ height: fit-content;}
        }
         @media (min-width: 700px) {
         display: flex;
-        
+        margin-top: -35rem;
         margin-left: 7%;
         text-align: center;
        
         }
         @media (min-width: 1024px) {
             display: flex;
-            
+            margin-top: -35rem;
             margin-left: 5%;
             text-align: center;
-            margin-top: -20rem;
+          
            
             }
         @keyframes appear{
@@ -313,7 +314,7 @@ height: fit-content;}
 }
 
 &__responsability{
-   
+    scroll-margin-top: 20rem;
     @media (min-width: 700px) {
         width: 100%;
         margin-bottom: 20rem;

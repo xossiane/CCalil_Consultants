@@ -73,7 +73,17 @@ function CardDepo() {
         "id": 12,
         "autor": "José Eduardo Chamon",
         "texto": "Já tive experiência como candidato, sendo atendido pela l Cida Calil em 1998 na empresa BCP, hoje Claro. Super profissional, humana e me deixou bem a vontade na entrevista, correndo de forma muito tranquila. Falamos sobre diversos assuntos, parecia que já nos conhecíamos há anos. Foi uma experiência incrível e o melhor, é que no final além de ter sido aprovado, criamos uma amizade que dura desde então. Juntos participamos da crianção de uma associação de voluntariado que existe até hoje, Associação Amigo Beija-Flor. Muito responsável e profissional, tornou-se uma de minhas melhores amigas. Cida, não é só uma head hunter, é uma amiga, é altruísta, preocupada com o bem estar do próximo e onde houver uma vaga, ela saberá encontrar o melhor candidato."
-      }
+      },
+      {
+        "id": 13,
+        "autor": "Juliana Vasconcelos",
+        "texto": "Gostaria de parabenizar a empresa Cida Calil, pelo trabalho fantástico de headhunter que ela realiza. Cida, idealizadora e proprietária da empresa é uma profissional altamente qualificada , atenciosa, prestativa e faz absolutamente toda a diferença na carreira de seus clientes. Seu diferencial é manter um modelo humanizado utilizando ferramentas tradicionais mas de grande impacto na nossa busca. Sua rede de contatos é sempre ampla e ativa, o que facilita sua atualização nos principais nichos de mercado. Cida , obrigada por investir seu precioso tempo no desenvolvimento de relações e por trazer à tona oportunidades que se encaixam perfeitamente no que o cliente busca. Parabéns por manter alto o nível de empreendedorismo em nosso País. Sua contribuição no mundo corporativo tem uma valor inestimável para o sucesso em todas as pontas. Sucesso Sempre!!"
+      },
+      {
+        "id": 14,
+        "autor": "Cristian Ribeiro",
+        "texto": "Uma profissional de altíssimo nível, que não mede esforços em demonstrar a sua paixão pela gestão de pessoas. Dona de um talento raro em recrutamento e seleção, além de notável sensibilidade ao conduzir entrevistas, consegue não só capturar cada detalhe do perfil e explorar todo potencial que o candidato pode oferecer, bem como entregar resultados para as empresas que superam expectativas e vão muito além de uma visão convencional do mercado de trabalho. Essa combinação única, aliada à toda competência, eficiência e aquele toque de exclusividade, fazem de Cida Calil Consultores um case de absoluto sucesso para profissionais e empresas que buscam uma posição de destaque na atualidade, alicerçados pelo compromisso com a ética, diversidade e responsabilidade."
+      },
     ]
 
   return (
