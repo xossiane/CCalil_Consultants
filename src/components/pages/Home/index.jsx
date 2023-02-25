@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../../organisms/NavBar";
 import Button from "../../atoms/Button";
-import Banner from "../../../assets/images/Hero/CCC-banner-teste2.png";
 import styles from "./styles.module.scss";
 import CardIcons from "../../molecules/CardIcons";
 import CardText from "../../molecules/CardText";
@@ -10,7 +9,6 @@ import cida from "../../../assets/images/cida.png";
 import responsability from "../../../assets/images/responsability.png";
 import CardDepo from "../../molecules/CardDepo";
 import Footer from "../../organisms/Footer";
-import { ContactUs } from "../../molecules/FormCandidate";
 import Hero from "../../molecules/Hero";
 
 function HomePage() {
