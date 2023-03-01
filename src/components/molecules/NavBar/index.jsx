@@ -8,9 +8,7 @@ import Close from '../../../assets/images/Close.png'
 export default function NavBar() {
   const [showMenu, setShowMenu] = useState(true);
 
-  useEffect(() => {
-    document.addEventListener("mousedown", setShowMenu);
-  }, [setShowMenu]);
+  
 
   return (
     <nav className={styles[`nav`]} >
