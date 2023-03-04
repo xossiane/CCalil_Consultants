@@ -1,17 +1,21 @@
 
 import HomePage from './components/pages/Home'
-
+import MainCard from './components/pages/MainCard'
+import { Routes, Route } from "react-router-dom";
 
 
 function App() {
 
   return (
-    <div className="App">
+    <Routes>
       
-       <HomePage></HomePage>
-       
+      <Route path="/" element={<HomePage />}></Route>
+      <Route path="/maincard" element={<MainCard/>}></Route>
+      
 
-    </div>
+
+    </Routes>
+    
   )
 }
 

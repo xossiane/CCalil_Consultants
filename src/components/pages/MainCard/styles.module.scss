@@ -1,0 +1,66 @@
+@import "/src/styles/variables";
+.MainCard{
+    background-image: url(https://img.freepik.com/premium-vector/abstract-seamless-pattern-background-with-artistic-style_7505-1600.jpg);
+    background-repeat: repeat;
+    width: 100%;
+padding-bottom: 4rem;
+    margin: 4rem;
+
+margin: 0;
+    &__logo{
+    max-width: 20rem;
+    padding: 3.5rem;
+}
+&__avatar{
+
+background-color: $blue;
+padding: 2rem;
+margin: 1.3rem;
+border-radius: 50rem;
+&--name{
+    font-family: "Sansita";
+    font-size: 4rem;
+    color: $blue;
+
+}
+&--job{
+    font-family: "Sansita";
+    font-size: 2rem;
+    color: $blue;
+    
+}
+}
+&__icons{
+    padding-top: 5rem;
+}
+&__icon{
+   
+    background-color: $blue;
+    padding: 2rem;
+    margin: 1.3rem;
+    border-radius: 50rem;
+    width: 48px;
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 1px;
+    }
+   &--link{
+    background-color: $blue;
+    padding: 0.1rem;
+    margin: 1.3rem;
+    border-radius: 50rem;
+    width: 48px;
+    
+    
+   }
+}
+&__link{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
