@@ -4,7 +4,6 @@ import cida from "../../../assets/images/cida.png";
 import styles from './styles.module.scss'
 import linkedin from "../../../assets/images/linkedin.png"
 import Globe from "../../../assets/images/Globe.png"
-import insta from "../../../assets/images/insta.png"
 import Phone from "../../../assets/images/Phone.png"
 import WhatsappLogo from "../../../assets/images/WhatsappLogo.png"
 import Envelope from "../../../assets/images/Envelope.png"
